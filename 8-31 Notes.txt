@@ -1,0 +1,54 @@
+Notes ---- Aug 31st
+
+Regression:
+Multiple regression:
+
+x,y one dependant and one independant
+x & y -- bivariant relationship
+x, y & z -- multivariant relationship
+we have y as in dependant and x,z as an independant variable. testing to see if those two independant variables have an impact on y.
+combined effects of those. 
+capable of disentangling those. 
+logic jump off point is linear regression (bivariant analysis)
+
+y = 1:5
+yeilds 1 2 3 4 5 
+
+min, max, mean, sd
+
+Measures of Central Tendancy:
+  - Mean
+  - Median
+  - Mode
+ 
+Levels of Measurement of Data:
+  - Nominal: Data you can't rank - yes or no (ex: gender)
+  - Ordinal: there is an order to this (ex: salaries, low/middle/high income)
+  - Interval/Ratio: pure numbers, they have an absolute position/value, you can compare it to other values. There is a true zero value to it. You can do mathematical operations on it. 
+
+Measures of Variation:
+  - Range: doesn't tell you anything about the distribution of the data within the range
+  - Standard Deviation: the amount of variation we have in our data
+        Normal distribution curve
+        -3s, -2s, -1s, s, +1s, +2s, +3s on the bell curve
+        +/-2s = within 2 standard deviations of the mean
+        z scores: convert your raw score to a z score 
+        standard deviation is part of regression -- how far is each data elemebt from our mean?
+        IQV - put in quartiles. Look at Q2 and Q3 because the other two are considered outliers.
+        sample data... statistically significant: it cannot be explained, something else is happening. The difference is not due to random chance. 
+
+Bivariate Analysis: (?)
+    Nominal 
+    Ordinal 
+    Interval/Ration 
+    
+Relationships 
+    (1) Is there a relationship?
+    (2) How strong is the relationship?
+    (3) Pattern or Direction
+    
+dat = read("star.csv", header = TRUE)
+mean(dat$tmathssk) <-- find the mean of tmathssk within dat data set 
+table(dat$sex)
+
+Categorical variables: nominal and ordinal variables 
